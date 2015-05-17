@@ -1,5 +1,5 @@
 """
-skrypt testujacy test wykonywania skryptu
+skrypt testujacy test mierzacy czas wykonywania skryptu
 """
 import time
 import cv2
