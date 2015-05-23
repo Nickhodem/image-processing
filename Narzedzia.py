@@ -49,6 +49,9 @@ def myrgb2grey(image):
     del bar
     return images_grey
 def binearyzuj(image):
+    '''
+    funkcja zwraca obraz w postaci binarnej (0,1)
+    '''
     binary_image = np.where(image > np.mean(image),1.0,0.0)
     return binary_image
 
